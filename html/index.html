@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <a href="https://icons8.com/icon/14096/home"></a>
+</head>
+<body>
+    <div class="container">
+        <div class="fixed">
+        <div class="menubar">
+            <button class="wrapedMenubutton" onclick="wrapright()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-justify">
+                    <line x1="18" y1="10" x2="3" y2="10"></line>
+                    <line x1="18" y1="6" x2="3" y2="6"></line>
+                    <line x1="18" y1="14" x2="3" y2="14"></line>
+                </svg>
+            </button>
+
+            <img src="../logo/icons8-youtube-play-button-48.png" alt="youTube" class="youTubeicon">
+            <img src="../logo/youTube IN.png" alt="youTube IN" id="head">
+            
+            
+                
+                <input type="text" name="text" id="textbar" placeholder="Search" onclick="changeBorder()">
+
+                <div id="search">
+                    <img src="../logo/search_white_24dp.svg" alt="search" id="searchicon">
+                </div>
+        
+
+            <img src="../logo/mic_black_24dp.svg" alt="mic"  id="micicon">
+            <img src="../logo/apps_black_24dp.svg" alt="apps"  id="appicon">
+            <img src="../logo/more_vert_black_24dp.svg" alt="more"  id="moreicon">
+
+            <div class="signIn">
+                <img src="../logo/account_circle_black_24dp.svg" alt="account"  id="account"><span id="caption">SIGN IN</span>
+            </div>
+            <div class="wrapedSidebar">
+                <div class="home">
+                   <div class="wraped-iconcontainer1">
+                       <div class="sideitem wrapelement">        
+                       <a href="index.html" class="link">
+                           <img src="../logo/house-door.svg" alt="home" id="wraped-imgh">
+                           <p class="wrapsidebar-heading">Home</p>
+                       </a>
+                       </div>
+       
+                       <div class="sideitem wrapelement">
+                       <a href="#" class="link">
+                           <img src="../logo/explore_black_24dp.svg" alt="explore" id="wraped-imgh">
+                           <p class="wrapsidebar-heading">Explore</p>
+                       </a>
+                       </div>
+                   
+                       <div class="sideitem wrapelement">
+                       <a href="#" class="link">
+                           <img src="../logo/subscriptions_black_24dp.svg" alt="subscriptions" id="wraped-imgh">
+                           <p class="wrapsidebar-heading">Subscriptions</p>
+                       </a>
+                       </div>
+    
+                       <div class="sideitem wrapelement">
+                           <a href="#" class="link">
+                               <img src="../logo/video_library_black_24dp.svg" alt="Library" id="wraped-imgh">
+                               <p class="wrapsidebar-heading">Library</p>
+                           </a>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <ul class="navcontainer">
+                <li><a href="#" id="homelink">All</a></li>
+                <li><a href="#">Computer programming</a></li>
+                <li><a href="#">courses</a></li>
+                <li><a href="#">C++</a></li>
+                <li><a href="#">Data structures</a></li>
+                <li><a href="#">Algorithm</a></li>
+                <li><a href="#">web development</a></li>
+                <li><a href="#">courses</a></li>
+                <li><a href="#">C++</a></li>
+                <li><a href="#">Live</a></li>            
+                <li><a href="#">Watched</a></li>
+                <li><a href="#">Recently uploaded</a></li>
+            </ul>
+        </div>
+        
+        </div>
+         <div class="videocontainer">
+            <div class="videoitem1" id="video1">
+                <img src="../img/6 Months of coding my first app-video thumbnail-mansoor codes.webp" alt="coder coder" id="thumbnail1">
+                <img src="../profile-photo/mansoor codes-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">How I code an iOS app in 6 minutes</p>
+                <p class="para2">Mansoor Codes</p>
+                <p class="para3">235k views  3 months ago</p>
+                <p class="timing">6:29</p>
+                <button class="watchLater">
+                    <img src="../logo/watch_later_black_24dp.svg" alt="Watch Later" class="videoButton1">
+                </button>
+                <button class="addtoQueue">
+                    <img src="../logo/playlist_add_black_24dp.svg" alt="Add to Queue" class="videoButton">
+                </button>
+            </div>
+            <div class="videoitem1" id="video2">
+                <img src="../img/15 hours 2021 latest course of python tutorial-video thumbnail-codewithharry.webp" alt="coder coder" id="thumbnail2">
+                <img src="../profile-photo/codewithharry-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">Python Tutorial For Beginners In HIndi (WIth Notes)</p>
+                <p class="para2">CodeWithHarry</p>
+                <p class="para3">4.6M views  9 months ago</p>
+                <p class="timing">11:52:24</p>
+                <button>
+                    <img src="../logo/watch_later_black_24dp.svg" alt="" class="s">
+                </button>
+            </div>
+            <div class="videoitem1" id="video3">
+                <img src="../img/a day in the life of a programmer-video thumbnail-kallden hallden.webp" alt="coder coder" id="thumbnail3">
+                <img src="../profile-photo/kallen-hallden-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">What A Day In A Programmers Life Is Actually Like</p>
+                <p class="para2">Kallen Hallden</p>
+                <p class="para3">598k views  3 months ago</p>
+                <p class="timing">5:46</p>
+            </div>
+            <div class="videoitem1" id="video4">
+                <img src="../img/build a website with html & css-video thumbnail-coder coder.webp" alt="coder coder" id="thumbnail4">
+                <img src="../profile-photo/coder-coder-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">Build a responsive website from scratch with HTML & CSS | Part 1: Navigation bar</p>
+                <p class="para2">Coder Coder</p>
+                <p class="para3">235k views  3 months ago</p>
+                <p class="timing">50:09</p>
+            </div>
+            <div class="videoitem2" id="video5">
+                <img src="../img/c++ placement course-video thumbnail-apni kaksha.jpg" alt="coder coder" id="thumbnail5">
+                <img src="../profile-photo/apna-college-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">C++ Full COurse | C++ Tutorial | Data Structure & Algorithm</p>
+                <p class="para2">apni kaksha</p>
+                <p class="para3">7.3M view</p>
+            </div>
+            <div class="videoitem2" id="video6">
+                <img src="../img/C++ stl in 1 shot-video thumbnail-love babbar.webp" alt="coder coder" id="thumbnail6">
+                <img src="../profile-photo/love babbar-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">Complete C++ STL in 1 Video Standard Template Library C++</p>
+                <p class="para2">Love Babbar</p>
+                <p class="para3">49k views  4 day ago</p>
+                <p class="timing">1:00:44</p>
+            </div>
+            <div class="videoitem2" id="video7">
+                <img src="../img/creating responsive website the easy way- video thumbnail-kevin powell.webp" alt="coder coder" id="thumbnail7">
+                <img src="../profile-photo/kevin powell-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">Responsive design made easy</p>
+                <p class="para2">Kevin Powell</p>
+                <p class="para3">160k views  6 months ago</p>
+                <p class="timing">42:40</p>
+            </div>
+            <div class="videoitem2" id="video8">
+                <img src="../img/dinosaur generator app-video thumbnail-coder coder.webp" alt="coder coder" id="thumbnail8">
+                <img src="../profile-photo/coder-coder-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">Building a Node.js app(as JavaScript noob)| LIVE CODING</p>
+                <p class="para2">Coder Coder</p>
+                <p class="para3">28k views  6 days ago</p>
+                <p class="timing">1:24:17</p>
+            </div>
+            <div class="videoitem3" id="video9">
+                <img src="../img/how to start programming-video thumbnail-take u forward.webp" alt="coder coder" id="thumbnail9">
+                <img src="../profile-photo/take U forward-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">Roadmap to learn Data-Structures and Algorithms!! How to start...</p>
+                <p class="para2">take U forward</p>
+                <p class="para3">177k views  1 year ago</p>
+                <p class="timing">12:43</p>
+            </div>
+            <div class="videoitem3" id="video10">
+                <img src="../img/IIT JEE FAILURE TO FINANCIAL FREEDOM AT 19-video tumbnail-inshant sharma.webp" alt="coder coder" id="thumbnail10">
+                <img src="../profile-photo/ishant-sharma-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">IIT JEE Failure to Financial Freedom at 19 | Ishan Sharma Journey...</p>
+                <p class="para2">Ishant Sharma</p>
+                <p class="para3">34k views  3 days ago</p>
+                <p class="timing">1:00</p>
+            </div>
+            <div class="videoitem3" id="video11">
+                <img src="../img/is maths important for software engineers-video thumbnail-apna college.webp" alt="coder coder" id="thumbnail11">
+                <img src="../profile-photo/apna-college-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">How much Maths is needed as Software Engineers?</p>
+                <p class="para2">apna college</p>
+                <p class="para3">965k views  4 days ago</p>
+                <p class="timing">7:07</p>
+            </div>
+            <div class="videoitem3" id="video12">
+                <img src="../img/Largest IIT IIT Kharagpur-video thumbnail-apna college.webp" alt="coder coder" id="thumbnail12">
+                <img src="../profile-photo/apni-kaksha-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">IIt Kharagpur | College Review | All about IIT Kharagpur</p>
+                <p class="para2">apna college</p>
+                <p class="para3">235k views  3 months ago</p>
+                <p class="timing">17:42</p>
+            </div>
+            <div class="videoitem4" id="video13">
+                <img src="../img/linkedin hacks to grow your career-video thumbnail-anuj bhaiya.webp" alt="coder coder" id="thumbnail13">
+                <img src="../profile-photo/anuj-bhaiya-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">My TOP 10 LinkedIn Hacks to Grow your Career | Referrals | Progile..</p>
+                <p class="para2">anuj bhaiya</p>
+                <p class="para3">35k views  1 week ago</p>
+                <p class="timing">19:20</p>
+            </div>
+            <div class="videoitem4" id="video14">
+                <img src="../img/mix-blend css-video thumbnail-kevin powell.webp" alt="coder coder" id="thumbnail14">
+                <img src="../profile-photo/kevin powell-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">How to use mix-blend-mode, and how to avoid problems with it</p>
+                <p class="para2">Kevin Powell</p>
+                <p class="para3">16k views  5 days ago</p>
+                <p class="timing">13:16</p>
+            </div>
+            <div class="videoitem4" id="video15">
+                <img src="../img/my coding journey-video thumbnail-love babbar.webp" alt="coder coder" id="thumbnail15">
+                <img src="../profile-photo/love babbar-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">How I Learned to Code - And Got Into Amazon</p>
+                <p class="para2">Love Babbar</p>
+                <p class="para3">344k views  2 months ago</p>
+                <p class="timing">17:08</p>
+            </div>
+            <div class="videoitem4" id="video16">
+                <img src="../img/programmer's bag pack-video thumbnail-kallen hallden.webp" alt="coder coder" id="thumbnail16">
+                <img src="../profile-photo/kallen-hallden-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">Tools Every Programmer Needs- Ultimate Programmer EDC</p>
+                <p class="para2">Kallen Hallden</p>
+                <p class="para3">148k views  1 month ago</p>
+                <p class="timing">15:28</p>
+            </div>
+            <div class="videoitem5" id="video17">
+                <img src="../img/programmer's dream place in life-video thumbnail-mansoor codes.webp" alt="coder coder" id="thumbnail17">
+                <img src="../profile-photo/mansoor codes-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">Programmer's dream place for coding <div id="shorts"></div></p>
+                <p class="para2">Mansoor Codes</p>
+                <p class="para3"> 8.6k views  6 days ago</p>
+                <p class="timing">0:28</p>
+            </div>
+            <div class="videoitem5" id="video18">
+                <img src="../img/react.js tutorial in hindi-video thumbnail-codewithharry.webp" alt="coder coder" id="thumbnail18">
+                <img src="../profile-photo/codewithharry-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">React tutorial in hindi</p>
+                <p class="para2">CodeWithHarry</p>
+                <p class="para3">392k views  2 months ago</p>
+                <p class="timing">2:12:57</p>
+            </div>
+            <div class="videoitem5" id="video19">
+                <img src="../img/use leetcode efficiently-video thumbnail-take u forward.webp" alt="coder coder" id="thumbnail19">
+                <img src="../profile-photo/take U forward-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">Use Leetcode EFFICIENTLY | Don't be Fooled by this feature</p>
+                <p class="para2">take U forward</p>
+                <p class="para3">63k views  3 months ago</p>
+                <p class="timing"> 13:38</p>
+            </div>
+            <div class="videoitem5" id="video20">
+                <img src="../img/web development roadmao-video thumbnail-anuj bhaiya.webp" alt="coder coder" id="thumbnail20">
+                <img src="../profile-photo/anuj-bhaiya-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">Complete Web Development Roadmap for Absolute Beginners  60 Days Strategy... </p>
+                <p class="para2">anuj bhaiya</p>
+                <p class="para3">113k views  1 months ago</p>
+                <p class="timing">15:36</p>
+            </div>   
+            <div class="videoitem5" id="video21">
+                <img src="../img/web development roadmao-video thumbnail-anuj bhaiya.webp" alt="coder coder" id="thumbnail21">
+                <img src="../profile-photo/anuj-bhaiya-channel-profile-photo.jpg" alt="coder coder" class="channel-profile-photo">
+                <p class="para1">Build a responsive website from scratch with HTML & CSS | Part 1: Navigation bar</p>
+                <p class="para2">anuj bhaiya</p>
+                <p class="para3">235k views  3 months ago</p>
+            </div>
+        </div>
+    </div>
+
+     <div class="main"> 
+        
+         <div id="sidebar">
+             <div class="home">
+                <div class="menubar">
+                    <button class="menubutton" onclick="wrapleft()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-justify">
+                            <line x1="18" y1="10" x2="3" y2="10"></line>
+                            <line x1="18" y1="6" x2="3" y2="6"></line>
+                            <line x1="18" y1="14" x2="3" y2="14"></line>
+                        </svg>
+                    </button>
+        
+                    <img src="../logo/icons8-youtube-play-button-48.png" alt="youTube" class="youTubeicon">
+                    <img src="../logo/youTube IN.png" alt="youTube IN" id="head">
+                </div>
+
+                    <div class="iconcontainer1">
+                <div class="sideitem " id="homepage">        
+                <a href="index.html" class="link">
+                    <img src="../logo/house-door.svg" alt="home" id="imgh">
+                    <p class="sidebar-heading">Home</p>
+                </a>
+                </div>
+
+                <div class="sideitem ">
+                <a href="#" class="link">
+                    <img src="../logo/explore_black_24dp.svg" alt="explore" id="imgh">
+                    <p class="sidebar-heading">Explore</p>
+                </a>
+                </div>
+            
+                <div class="sideitem ">
+                <a href="#" class="link">
+                    <img src="../logo/subscriptions_black_24dp.svg" alt="subscriptions" id="imgh">
+                    <p class="sidebar-heading">Subscriptions</p>
+                </a>
+                </div>
+                    </div>
+                
+                    <div class="iconcontainer2">
+                <div class="sideitem ">
+                <a href="#" class="link">
+                    <img src="../logo/video_library_black_24dp.svg" alt="Library" id="imgh">
+                    <p class="sidebar-heading">Library</p>
+                </a>
+                </div>
+
+                <div class="sideitem ">
+                <a href="#" class="link">
+                    <img src="../logo/history_black_24dp.svg" alt="History" id="imgh">
+                    <p class="sidebar-heading">History</p>
+                </a>
+                </div>
+            
+                <div class="sideitem ">
+                <a href="#" class="link">
+                    <img src="../logo/smart_display_black_24dp.svg" alt="Your videos" id="imgh">
+                    <p class="sidebar-heading">Your videos</p>
+                </a>
+                </div>
+            
+                <div class="sideitem ">
+                <a href="#" class="link">
+                    <img src="../logo/watch_later_black_24dp.svg" alt="Watch Later" id="imgh">
+                    <p class="sidebar-heading">Watch Later</p>
+                </a>
+                </div>
+            
+                <button id="showMore" onclick="more()">
+                <div class="sideitem " >
+                <a href="#" class="link">
+                    <img src="../logo/keyboard_arrow_down_black_24dp.svg" alt="Show more" id="imgh">
+                    <p class="showmore-sidebar-heading">Show more</p>
+                </a>
+                </div>
+                </button>   
+                <!-- <hr class="line"> -->
+
+                <div id="hideSide1">
+                    <a href="#" class="link">
+                        <img src="../logo/playlist_play_black_24dp.svg" alt="Web Development" id="imgh">
+                        <p class="sidebar-heading">Web Development <Tu class=""></Tu></p>
+                </a>
+                </div>
+
+                <div id="hideSide2">
+                    <a href="#" class="link">
+                        <img src="../logo/playlist_play_black_24dp.svg" alt="C++ course" id="imgh">
+                        <p class="sidebar-heading">C++ course</p>
+                </a>
+                </div>
+
+                <div id="hideSide3">
+                    <a href="#" class="link">
+                        <img src="../logo/playlist_play_black_24dp.svg" alt="Liked videos" id="imgh">
+                        <p class="sidebar-heading">Java</p>
+                </a>
+                </div>
+                <button id="showLess" onclick="less()">
+                    <div class="sideitem " >
+                    <a href="#" class="link">
+                        <img src="../logo/keyboard_arrow_down_black_24dp.svg" alt="Show more" id="imgh">
+                        <p class="showmore-sidebar-heading">Show fewer</p>
+                    </a>
+                    </div>
+                    </button>   
+
+                <div class="iconcontainer3 ">
+                <h4 class="sideheading">SUBSCRIPTIONS</h4>
+                <div class="sideitem">
+                <a href="#" >
+                    <img src="../profile-photo/codewithharry-channel-profile-photo.jpg" alt="CodeWithHarry" class="profile-photo">
+                    <p class="sidebar-heading">CodeWithHarry</p>
+                </a>
+                </div>
+            
+                <div class="sideitem">
+                <a href="#" >
+                    <img src="../profile-photo/coder-coder-channel-profile-photo.jpg" alt="Coder Coder" class="profile-photo">
+                    <p class="sidebar-heading">Coder Coder</p>
+                </a>
+                </div>
+            
+                <div class="sideitem">
+                <a href="#" >
+                    <img src="../profile-photo/anuj-bhaiya-channel-profile-photo.jpg" alt="Anuj Bhaiya" class="profile-photo">
+                    <p class="sidebar-heading">Anuj Bhaiya</p>
+                </a>
+                </div>
+            
+                <div class="sideitem">
+                <a href="#" >
+                    <img src="../profile-photo/mansoor codes-channel-profile-photo.jpg" alt="Mansoor Codes" class="profile-photo">
+                    <p class="sidebar-heading">Mansoor Codes</p>
+                </a>
+                </div>
+            
+                <div class="sideitem">
+                <a href="#">
+                    <img src="../profile-photo/kevin powell-channel-profile-photo.jpg" alt="Kevin Powell" class="profile-photo">
+                    <p class="sidebar-heading">Kevin Powell</p>
+                </a>
+                </div>
+
+                <div class="sideitem">
+                <a href="#" >
+                    <img src="../profile-photo/apna-college-channel-profile-photo.jpg" alt="Apna College" class="profile-photo">
+                    <p class="sidebar-heading">Apna College</p>
+                </a>
+                </div>
+
+                <div class="sideitem">
+                <a href="#" >
+                    <img src="../profile-photo/apni-kaksha-channel-profile-photo.jpg" alt="Apni Kasha" class="profile-photo">
+                    <p class="sidebar-heading">Apni Kasha</p>
+                </a>
+                </div>
+
+                <div class="sideitem">
+                <a href="#" >
+                    <img src="../profile-photo/kallen-hallden-channel-profile-photo.jpg" alt="Kallen Hallden" class="profile-photo">
+                    <p class="sidebar-heading">Kallen Hallden</p>
+                </a>
+                </div>
+
+                <!-- <div class="sideitem" id="wrapitem" >
+                <a href="#" >
+                    <img src="../logo/keyboard_arrow_down_black_24dp.svg" alt="show 3 more" id="imgh">
+                    <p class="sidebar-heading">show 3 more</p>
+                </a>
+                </div> -->
+
+                <div class="more">
+                <div class="sideitem">
+                <a href="#" >
+                    <img src="../profile-photo/take U forward-channel-profile-photo.jpg" alt="take U forward" class="profile-photo">
+                    <p class="sidebar-heading">take U forward</p>
+                </a>
+                </div>
+
+                <div class="sideitem">
+                <a href="#" >
+                    <img src="../profile-photo/love babbar-channel-profile-photo.jpg" alt="Love Babbar" class="profile-photo">
+                    <p class="sidebar-heading">Love Babbar</p>
+                </a>
+                </div>
+
+                <div class="sideitem">
+                <a href="#" >
+                    <img src="../profile-photo/ishant-sharma-channel-profile-photo.jpg" alt="Ishana Sharma" class="profile-photo">
+                    <p class="sidebar-heading">Ishana Sharma</p>
+                </a>
+                </div>
+                </div>
+                    </div>
+                
+                    <div class="iconcontainer4 wraphidden">
+                        <h4 class="sideheading">More From YouTube</h4>
+                <div class="sideitem">
+                <a href="#" class="link">
+                    <img src="../logo/smart_display_black_24dp.svg" alt="YouTube Premium" id="imgh">
+                    <p class="sidebar-heading">YouTube Premium</p>
+                </a>
+                </div>
+
+                <div class="sideitem">
+                <a href="#" class="link">
+                    <img src="../logo/film.svg" alt="Films" id="imgh">
+                    <p class="sidebar-heading">Films</p>
+                </a>
+                </div>
+
+                <div class="sideitem">
+                <a href="#" class="link">
+                    <img src="../logo/sports_esports_white_24dp.svg" alt="Gaming" id="imgh">
+                    <p class="sidebar-heading">Gaming</p>
+                </a>
+                </div>
+
+                <div class="sideitem">
+                <a href="#" class="link">
+                    <img src="../logo/sensors_black_24dp.svg" alt="Live" id="imgh">
+                    <p class="sidebar-heading">Live</p>
+                </a>
+                </div>
+
+                <div class="sideitem">
+                <a href="#" class="link">
+                    <img src="../logo/subscriptions_black_24dp.svg" alt="Fashion & beauty" id="imgh">
+                    <p class="sidebar-heading">Fashion & beauty</p>
+                </a>
+                </div>
+
+                <div class="sideitem">
+                <a href="#" class="link">
+                    <img src="../logo/lightbulb_black_24dp.svg" alt="learning" id="imgh">
+                    <p class="sidebar-heading">learning</p>
+                </a>
+                </div>
+
+                <div class="sideitem">
+                <a href="#" class="link">
+                    <img src="../logo/emoji_events_black_24dp.svg" alt="sports" id="imgh">
+                    <p class="sidebar-heading">sports</p>
+                </a>
+                </div>
+                </div>
+
+                <div class="iconcontainer5 wraphidden">
+                    <div class="sideitem">
+                    <a href="#" class="link">
+                        <img src="../logo/settings_black_24dp.svg" alt="Settings" id="imgh">
+                        <p class="sidebar-heading">Settings</p>
+                    </a>
+                    </div>
+                    
+                    <div class="sideitem">
+                    <a href="#" class="link">
+                        <img src="../logo/flag_black_24dp.svg" alt="Report history" id="imgh">
+                        <p class="sidebar-heading">Report history</p>
+                    </a>
+                    </div>
+
+                    <div class="sideitem">
+                    <a href="#" class="link">
+                        <img src="../logo/help_black_24dp.svg" alt="Help" id="imgh">
+                        <p class="sidebar-heading">Help</p>
+                    </a>
+                    </div>
+
+                    <div class="sideitem">
+                    <a href="#" class="link">
+                        <img src="../logo/feedback_black_24dp.svg" alt="Send feedback" id="imgh">
+                        <p class="sidebar-heading">Send feedback</p>
+                    </a>
+                    </div>
+                        </div>
+
+                    <div class="iconcontainer6 wraphidden">
+                    <a href="#">
+                        <p class="parafooter">
+                            About Press Copyright <br>
+                            Contact us Creator Advertise <br>
+                            Developers
+                        </p>
+                    </a>
+                    <a href="#">
+                        <p class="parafooter">
+                            Terms Privacy Policy & Safety<br>
+                            How YouTube works<br>
+                            Test new features
+                        </p>
+                    </a>
+                        <p class="sidefooter">
+                            &copy; 2021 Google LLC 
+                        </p>
+                        </div>
+            </div>
+        </div>
+    </div> 
+
+    
+</body>
+<script src="../js/index.js"></script>
+</html>             

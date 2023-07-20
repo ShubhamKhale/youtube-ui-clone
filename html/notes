@@ -1,0 +1,135 @@
+html:-
+subscripted channel's names:-
+1.CodeWithHarry
+2.Coder Coder
+3.Anuj Bhaiya 
+4.Mansoor Codes
+5.Kevin Powell
+6.Apna College
+7.Apni Kasha
+8.Kalle Hallden
+show 3 more
+9.take U forward
+10.Ishana Sharma
+11.Love Babbar
+
+Settings
+Report history
+Help
+Send feedback
+
+videoitem video title---
+|
+-----
+1.6 Months of coding my first append     
+2.15 hours 2021 latest course of python  
+3.a day in the life of a programmer 
+4.build a website with html & css
+5.c++ placement course
+6.C++ stl in 1 shot
+7.creating responsive website the easy way
+8.dinosaur generator app
+9.how to start programming 
+10.IIT JEE FAILURE TO FINANCIAL FREEDOM 
+11.is maths important for software engineers
+12.largest iit iit kharagpur
+13.linkedin hacks to grows your career
+14.mix-bend css-video
+15.my coding journey 
+16.programmer's bag pack 
+17.programmer's dream place in life
+18.react.js tutorial in hindi
+19.use leetcode eficiently 
+20.web development roadmap
+navbar:-
+ navitem
+ |
+ ---- 1.All
+      2.Computer programming
+      3.courses
+      4.C++
+      5.Data strutures
+      6.Alogrithm
+      7.inventions
+      8.Motivation
+      9.Recently uploaded
+      10.Live
+      11.Watched
+css:-
+sidebar icon hover color:- #FFFFFF
+navbar
+|
+----1.make navbar scrollable through x axis. overflow x : scrollable; overflow y : none;
+js:-
+navbar
+|
+---- 1. append previous button in the place of all button when click on next button 
+     2. on click on previous button again append all button in place of previous button
+
+/*
+side-effect:-
+.sidebar{
+  width: 70px;
+}
+ 
+ .iconcontainer1{
+      border-bottom: none;
+      margin-bottom: -15px;
+ }
+
+ .iconcontainer2{
+      border-bottom: none;
+ }
+
+ .wraphidden{
+      display: none;
+ }
+
+.sidebar-heading{
+     font-size: 11px;
+    position: relative;
+    /* bottom: 0px; */
+    left: 19px;
+}
+*/
+
+when wrapsidebarLeft is added to sidebar :--
+1.navbar.style.width = "108.1em";
+2.navbar.style.right = "205px";
+3.navcontainer.style.position.left = "96px";
+4.videocontainer.style.position.left = "87px";
+5.thumnail.style.width = "321px";
+6.thumnail.style.height = "200px";
+7.videoitem2.style.top = "70px";
+8.videoitem3.style.top = "90px";
+9.videoitem4.style.top = "110px";
+10.videoitem5.style.top = "130px";
+
+/*MORE BUTTON*/
+1.Add to queue
+2.Save to Watch Later
+3.Save to playlist
+4.Not interested
+5.Don't recommend channel
+6.Report
+
+VIDEO'S THUMNAILS
+1. how i code an ios app in 6 minutes - mansoor codes - 6:29
+2.python tutorials for beginners in hindi (with notes) - codewithharry - 11:52:24
+3.What A Day In A Programmers Life Is Actually Like - kallen hallden - 5:46
+4.Build a responsive website from scratch with HTML & CSS | Part 1: Navigation bar -coder coder - 50:09
+6.Complete C++ STL in 1 Video - Standard Template Library C++ -love babbar-1:00:44
+7.Responsive design made easy - kevin powell - 42:40
+8.Building a Node.js app (as a JavaScript noob) | 🔴 LIVE CODING - coder coder - 1:24:17
+9.Roadmap to learn Data-Structures and Algorithms!! How to start competitive Programming?? - take U forward - 12:43
+10.IIT JEE Failure to Financial Freedom at 19🔥 | Ishan Sharma Journey #shorts - ishan sharma - 1:00
+11.How much Maths is needed as Software Engineers? by @Apna College - apna college - 7:07
+12.IIT Kharagpur | College Review | All about IIT Kharagpur - apna college - 17:42
+13.My TOP 10 LinkedIn Hacks to Grow your Career | Referrals | Profile Building | Jobs search [2021] - anuj bhaiya - 19:20
+14.How to use mix-blend-mode, and how to avoid problems with it - kevin powell - 13:16
+15.How I Learned to Code - And Got Into Amazon - love babbar - 17:08
+16.Tools Every Programmer Needs - Ultimate Programmer EDC - kallen hallden - 15:28
+17.Programmer's dream place for coding #shorts - mansoor codes - 0:28
+18.React Tutorial in Hindi 🔥🔥 - code with harry - 2:12:57
+19.Use Leetcode EFFICIENTLY | Don't Be Fooled by this Feature 🙈 - striver - 13:38
+20.Complete Web Development Roadmap for Absolute Beginners 🔥 60 Days Strategy to Master Web Development - anuj bhaiya - 15:36
